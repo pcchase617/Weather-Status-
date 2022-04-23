@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "weather">
+
+    </p>
+    <input id="cityInput" type="text" placeholder="What city?" />
+    <button id="search">search</button>
+    <script>
+        function getWeather(city) {
+            var onCallBaseEndPoint = 'https://api.openweathermap.org/data/2.5/onecall'
+            var API_KEY = '';
+            var weatherBaseEndPoint = 'https://api.openweathermap.org/data2.5/weather';
+            fetch(weatherBaseEndPoint + `?q=${encodeURI(city)}&appid=${API_KEY}`)
+            .then(weatherRes => weatherRes,json())
+            .then(weatherData => {
+                console.log('weather data', weatherData)
+            })
+        }
+    </script> 
+</body>
+</html>
