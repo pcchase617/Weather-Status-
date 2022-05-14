@@ -1,5 +1,6 @@
-body {
+main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -87,6 +88,20 @@ body {
     left: 20px;
   }
 
+  .future-forecast {
+    display: flex;
+    justify-content: center;
+  }
+
   #container {
+    background-color: rgba(0, 0, 0, 0.81);
     color: white;
+    padding: 4em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 95%;
+    text-align: center;
+    direction: row;
+    column-count: 8;
+    column-gap: 100px;
   }

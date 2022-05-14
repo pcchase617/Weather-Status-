@@ -78,7 +78,8 @@ let weather = {
     const temp = document.createElement('div')
     const wind = document.createElement('div')
     const humidity = document.createElement('div')
-    dateEl.textContent = new Date(dt);
+    dateEl.textContent = new Date(dt*1000);
+    dateEl.textContent = dateEl.textContent.slice(0, 15)
     iconEl.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + '.png')
     temp.textContent = "Temp: " + data[i].temp.day;
     wind.textContent = "Wind Speed: " + data[i].wind_speed;
