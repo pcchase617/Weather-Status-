@@ -4,6 +4,7 @@ This is a website to get information about the weather associated with their loc
 
 Deployed website: 
 https://pcchase617.github.io/homework6_challenge3_weatherapp/
+
 Repository:
 https://github.com/pcchase617/homework6_challenge3_weatherapp
 
