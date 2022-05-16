@@ -5,7 +5,7 @@ This is a website to get information about the weather associated with their loc
 Deployed website: https://pcchase617.github.io/homework6_challenge3_weatherapp/
 
 Site Preview:
-![alt text](http://url/to/img.png)
+![alt text](https://raw.githubusercontent.com/pcchase617/homework6_challenge3_weatherapp/main/weather_image.PNG)
 
 Design a weather dashboard using a serverside API. This will be interactive in letting the user pick a city by typing the name in and displaying details about the weather.
 
