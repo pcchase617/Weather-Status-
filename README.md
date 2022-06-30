@@ -1,4 +1,4 @@
-# homework6_challenge3_weatherapp
+# Weather Status
 
 This is a website to get information about the weather associated with their location
 
